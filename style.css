@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Nunito', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'PT Sans', sans-serif;
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+
+header{
+    display: flex;
+}
+
+.nav{
+    display: flex;
+    justify-content: center;
+    margin-left: 350px;
+}
+img{
+    max-width:90px;
+    max-height:150px;
+    width: auto;
+    height: auto;
+}
+
+a{
+    margin: 15px;
+    text-decoration: none;
+    color: rgb(80, 92, 92);
+}
