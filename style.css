@@ -18,6 +18,7 @@ header{
     display: flex;
     justify-content: center;
     margin-left: 350px;
+    align-items: center;
 }
 #logo-empresa{
     max-width:90px;
@@ -60,12 +61,16 @@ section{
     background-color: rgb(225, 89, 89);
 }
 
-#titulo-explicacao{
+#title-explanation{
     font-size: 30px;
     padding: 10px;
 }
 
-#texto-cronograma{
+#text-schedule{
     font-size: 20px;
 }
-
+.caixa-conteudo{
+    width: 75%;
+    height: 150px;
+    background-color: aqua;
+}
