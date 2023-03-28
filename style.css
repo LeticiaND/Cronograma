@@ -126,4 +126,19 @@ section:nth-child(4) {
     justify-content: center;
     align-items: center;
 
- }
+}
+
+#teste-button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+button{
+    height: 70px;
+    width: 150px;
+    border-radius: 15px;
+    border: none;
+    margin: 50px;
+    font-size: 20px;
+    background-color: hotpink;
+}
