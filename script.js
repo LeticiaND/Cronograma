@@ -1,5 +1,5 @@
-const buttons = document.querySelectorAll("#teste-button")
-const images = document.querySelector("#imgs-test")
+const buttons = document.querySelectorAll("#button-conteudo")
+const images = document.querySelector("#imgs-cronograma")
 
 
 buttons.forEach((button) => {
@@ -12,7 +12,8 @@ buttons.forEach((button) => {
 })
 
 function showImage(image) {
-    let url = ""
+    // "use strict"
+    // let url = ""
     switch (image) {
         case "h": 
             url = "img/hidratacao-capilar-1.webp"
